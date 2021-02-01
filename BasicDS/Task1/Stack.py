@@ -12,3 +12,6 @@ class Stack(object):
 
     def peek(self):
         return self.stack[-1]
+
+    def isEmpty(self):
+        return len(self.stack) == 0
